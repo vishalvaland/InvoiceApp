@@ -1,0 +1,64 @@
+{
+    "fields": [
+        {
+            "name": "itemname",
+            "type": "varchar"
+        },
+        {
+            "name": "itemmodelnumber",
+            "type": "varchar"
+        },
+        {
+            "name": "HSN_SAC",
+            "type": "varchar"
+             
+        },
+        {
+            "name": "quantity",
+            "type": "number"
+        },
+         {
+            "name": "rate",
+            "type": "number"
+        }
+        ,
+         {
+            "name": "statetax",
+            "type": "number"
+        }
+        ,
+         {
+            "name": "centraltax",
+            "type": "number"
+        }
+    ],
+
+     "validations": [
+        {
+            "field": "itemname",
+            "rules": "required"
+        },
+
+         
+         {
+            "field": "HSN_SAC",
+            "rules": "required"
+        }, 
+
+         {
+            "field": "rate",
+            "rules": "required"
+        }, 
+
+        {
+            "field": "statetax",
+            "rules": "required"
+        }, 
+         {
+            "field": "centraltax",
+            "rules": "required"
+        }
+    ]
+    
+    
+}

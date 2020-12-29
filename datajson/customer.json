@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "CustomerName",
+            "type": "varchar"
+        },
+        {
+            "name": "CustomerAddress",
+            "type": "varchar"
+        },
+        {
+            "name": "GSTNo",
+            "type": "varchar"
+             
+        },
+        {
+            "name": "MobileNo",
+            "type": "varchar"
+        },
+         {
+            "name": "E-Mail",
+            "type": "email"
+        }
+    ],
+
+     "validations": [
+        {
+            "field": "CustomerName",
+            "rules": "required"
+        }
+    ]
+    
+    
+}

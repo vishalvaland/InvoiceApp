@@ -1,0 +1,36 @@
+{
+    "fields": [
+        {
+            "name": "Company_Name",
+            "type": "varchar"
+        },
+        {
+            "name": "Company_Address",
+            "type": "varchar"
+        },
+        {
+            "name": "Company_Phone",
+            "type": "number"
+             
+        },
+        {
+            "name": "Company_Mobile",
+            "type": "number"
+        },
+         {
+            "name": "GST_No",
+            "type": "varchar"
+        }
+         
+    ],
+
+     "validations": [
+        {
+            "field": "Company_Name",
+            "rules": "required"
+        }        
+          
+    ]
+    
+    
+}
